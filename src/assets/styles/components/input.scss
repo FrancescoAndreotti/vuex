@@ -1,0 +1,22 @@
+@import '../_variables.scss';
+
+
+.input-container{
+  width: 100%;
+  border: 1px solid $main-color;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+input{
+   border: none;
+   display: inline-block;
+   background-color: transparent;
+   font-weight: bolder;
+   text-align: center;
+   padding-left: 1px;
+   width: 100%;
+   max-width: 100%;
+   border: none;
+   font-size: 30px;
+}

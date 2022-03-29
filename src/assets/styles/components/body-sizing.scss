@@ -1,0 +1,65 @@
+@import '../_variables.scss';
+
+.header-container{
+  display: flex;
+  width: 100%; 
+  
+  
+
+  .title-container{
+    width: 50%;
+    color: $main-color;
+    font-weight: 700;
+    text-transform: uppercase;
+    align-self: flex-start;
+    padding-top: 2%;
+    padding-left: 4%;
+    margin-top: 60px;
+  }
+
+  .header-content{
+    padding: 5px 0;
+    border: none;
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 60px;
+    min-width: 50%;
+    max-width: 100%;
+
+    span{
+      border: 1px solid $main-color;
+      padding: 5px;
+      font-family: $main-font;
+      font-size: 16px;
+      padding: 5px 10px;
+      width: 40px;
+      flex-grow: 0;
+      flex-shrink: 0;
+    }
+    
+  }
+}
+
+
+
+main{
+display: flex;
+justify-content: center;
+min-height: 75vh;
+max-height: 100vh;
+flex-grow: 2;
+flex-direction: column;
+
+.container-main {
+  padding: 15px;
+
+  span{
+    font-weight: bold;
+  }
+}
+}
+
+
+footer{
+  margin-bottom: 24px;
+}

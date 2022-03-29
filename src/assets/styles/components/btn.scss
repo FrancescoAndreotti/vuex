@@ -1,0 +1,23 @@
+@import '../_variables.scss';
+
+.btn-container{
+    margin: 0 16px;
+    justify-self: flex-end;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.my-btn-primary{
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $main-color;
+  border: none;
+
+  .btn-text{
+    color: $secondary-color;
+    font-size: 16px;
+    padding: 0 15px;
+  }
+}
